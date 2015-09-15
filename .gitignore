@@ -1,7 +1,5 @@
 node_modules
-config.js
 jspm_packages
 .idea
-package.json
 build.js
 build.js.map

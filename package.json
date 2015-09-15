@@ -1,0 +1,25 @@
+{
+  "jspm": {
+    "directories": {
+    "baseURL": "app"
+    },
+    "dependencies": {
+      "angular-growl": "github:JanStevens/angular-growl-2@^0.7.5",
+      "angular": "github:angular/bower-angular@^1.4.5",
+      "angular-animate": "github:angular/bower-angular-animate@^1.4.5",
+      "angular-route": "github:angular/bower-angular-route@^1.4.5",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "css": "github:systemjs/plugin-css@0.1.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
+    },
+    "overrides": {
+      "angular-growl": {
+        "main": "github:JanStevens/angular-growl-2@^0.7.5/build/angular-growl-2"
+      }
+    }
+  }
+}
